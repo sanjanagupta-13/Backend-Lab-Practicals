@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=6,m=12,gcd=0
+        let min=m<n? m:n;
+        for(i=1;i<=min;i++){
+            if(n%i==0 && m%i==0){
+               gcd=i
+            }
+        }
+        document.write("gcd="+gcd)
+    </script>
+</body>
+</html>

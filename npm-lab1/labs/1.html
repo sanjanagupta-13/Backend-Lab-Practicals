@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = parseInt(prompt("Enter starting number:"));
+let n2 = parseInt(prompt("Enter ending number:"));
+
+for (let i = n1; i <= n2; i++) {
+    let isPrime = true;
+
+    if (i < 2) continue; // skip 0 and 1
+
+    for (let j = 2; j <= i - 1; j++) {
+        if (i % j === 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        document.write("")
+
+    }
+}  
+       
+    </script>
+</body>
+</html>
