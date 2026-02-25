@@ -1,0 +1,23 @@
+Nextjs :----------------
+ 
+- Nextjs is used to work with both side(backend & fronted).
+- Nextjs is open source.
+- Nextjs is highly omtimize.
+- Nextjs is a framework.
+
+
+- app: This directory defines the application's routes and UI.
+
+- layout.tsx: shared UI for a route segment and its children (e.g., navigation bar, footer) .This file is mandatory in the root app directory.
+
+- page.tsx: The unique UI for a route, making it publicly accessible .
+
+- loading.tsx: Optional file to define a loading state (using a Suspense boundary) for the segment .
+
+- error.tsx: Optional file to define an error UI for a route segment .
+
+- not-found.tsx: Optional file to define a 404 page for a route segment .
+
+- [dynamic_segment]: Brackets denote a dynamic route segment (e.g., app/products/[slug]/page.tsx).
+
+- @modal: Convention for implementing parallel routes, often used for modals.
